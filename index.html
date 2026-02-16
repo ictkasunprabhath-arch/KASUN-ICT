@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KASUN-ICT | Master ICT with Us</title>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -27,19 +26,15 @@
             }
         }
     </script>
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-gray-900 text-white selection:bg-brand-500 selection:text-white">
 
-    <!-- Navbar -->
     <nav class="fixed w-full z-50 glass-effect">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
-                <!-- Logo -->
                 <div class="flex-shrink-0">
                     <a href="index.html" class="flex items-center gap-2">
                         <i class="fas fa-laptop-code text-brand-500 text-2xl"></i>
@@ -48,7 +43,6 @@
                     </a>
                 </div>
 
-                <!-- Desktop Menu -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <a href="index.html"
@@ -66,7 +60,6 @@
                     </div>
                 </div>
 
-                <!-- Mobile menu button -->
                 <div class="-mr-2 flex md:hidden">
                     <button id="menu-btn" type="button"
                         class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none">
@@ -76,7 +69,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu -->
         <div class="md:hidden hidden bg-gray-900 border-t border-gray-800" id="mobile-menu">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a href="index.html" class="text-brand-500 block px-3 py-2 rounded-md text-base font-medium">Home</a>
@@ -94,9 +86,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
-        <!-- Background Elements -->
         <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
             <div
                 class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-brand-600 rounded-full blur-[120px] opacity-20 animate-pulse">
@@ -106,10 +96,12 @@
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-                Master ICT with <br class="hidden md:block" />
-                <span class="gradient-text">Excellence</span>
-            </h1>
+            <div class="flex justify-center mb-8">
+                <img src="image_10.png" 
+                     alt="Master ICT with Excellence - KASUN ICT" 
+                     class="w-full max-w-4xl h-auto rounded-2xl shadow-2xl border border-gray-700 transform hover:scale-[1.01] transition duration-500">
+            </div>
+
             <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-400 mb-10">
                 Join Sri Lanka's premium online ICT class. Live sessions, high-quality recordings, and comprehensive
                 learning materials tailored for your success.
@@ -125,7 +117,6 @@
                 </a>
             </div>
 
-            <!-- Stats -->
             <div class="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4 border-t border-gray-800 pt-10">
                 <div class="flex flex-col items-center">
                     <span class="text-4xl font-bold text-white">500+</span>
@@ -147,7 +138,6 @@
         </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="py-20 bg-gray-800/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -157,7 +147,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
                 <div
                     class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-brand-500 transition duration-300 group">
                     <div
@@ -169,7 +158,6 @@
                         problems together.</p>
                 </div>
 
-                <!-- Feature 2 -->
                 <div
                     class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-brand-500 transition duration-300 group">
                     <div
@@ -181,7 +169,6 @@
                         own pace.</p>
                 </div>
 
-                <!-- Feature 3 -->
                 <div
                     class="bg-gray-900 p-8 rounded-2xl border border-gray-800 hover:border-brand-500 transition duration-300 group">
                     <div
@@ -196,7 +183,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="py-20 relative overflow-hidden">
         <div class="absolute top-1/2 right-[-10%] w-[40%] h-[40%] bg-blue-600 rounded-full blur-[120px] opacity-10">
         </div>
@@ -205,10 +191,7 @@
                 <div class="mb-12 lg:mb-0">
                     <div
                         class="relative rounded-2xl overflow-hidden border border-gray-700 shadow-2xl skew-y-3 transform hover:skew-y-0 transition duration-500">
-                        <!-- Placeholder for an image (using a gradient div for now) -->
-                        <div class="bg-gradient-to-br from-gray-800 to-gray-900 h-96 flex items-center justify-center">
-                            <i class="fas fa-user-graduate text-9xl text-brand-900/50"></i>
-                        </div>
+                        <img src="image_10.png" alt="Kasun Prabhath" class="w-full h-96 object-cover">
                         <div
                             class="absolute bottom-0 left-0 right-0 bg-gray-900/90 backdrop-blur p-6 border-t border-gray-700">
                             <h4 class="text-xl font-bold text-white">Kasun Prabhath</h4>
@@ -251,7 +234,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-800/30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -288,16 +270,15 @@
                             class="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500"
                             placeholder="How can we help you?"></textarea>
                     </div>
-                    <button onclick="https://docs.google.com/forms/d/e/1FAIpQLSfZgoNBXe7Ja1_vprp349LNXDlVfvG8U-T67tf8g18yz5jzGQ/viewform?usp=sharing&ouid=118119679091769976561"
-                        class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 rounded-lg transition duration-300 shadow-lg shadow-brand-500/25">
-                        Send Message
-                    </button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZgoNBXe7Ja1_vprp349LNXDlVfvG8U-T67tf8g18yz5jzGQ/viewform" target="_blank"
+                        class="block w-full text-center bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 rounded-lg transition duration-300 shadow-lg shadow-brand-500/25">
+                        Register Now
+                    </a>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-gray-900 border-t border-gray-800 pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
@@ -345,7 +326,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 
